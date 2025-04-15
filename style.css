@@ -1,0 +1,288 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* primery */
+.hader-primery {
+    color: rgba(30, 30, 30, 0.791);
+    font-size: 33px;
+}
+
+.font-primery {
+    color: rgba(48, 51, 58, 0.72);
+    font-size: 14px;
+}
+
+/* primery */
+/* nave */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.nave-btn a {
+    color: rgb(35, 41, 55);
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.nave-btn {
+    padding: 5px 13px;
+    border: 2px solid rgb(24, 27, 35);
+    border-radius: 5px;
+}
+
+.heder-section {
+    height: 550px;
+    background-image: url(assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.fist-img {
+    height: 240px;
+
+}
+
+.heder-h1 {
+    font-size: 37px;
+    word-spacing: 3px;
+    margin-top: 30px;
+    font-weight: 700;
+
+}
+
+.heder-disqipson {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #0D1321;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px 12px;
+
+}
+
+button {
+    border: none;
+    margin-top: 15px;
+}
+
+.whyweb {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+
+.whydescipson {
+    font-weight: 500;
+}
+
+.mainimgsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 110px;
+    gap: 20px;
+}
+
+.introduce h3 {
+    word-spacing: 3px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.introduce p {
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.introduce button a {
+    text-decoration: none;
+    border: 2px solid rgba(105, 96, 96, 0.555);
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 5 10px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.video-eintoroduction {
+    text-align: center;
+}
+
+.video-apnacollage {
+    width: 561px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 10px;
+    background: linear-gradient(rgba(13, 19, 33, 0.2));
+    border-radius: 5px;
+
+}
+
+.current-hader {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.html-css-jsdiv {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.html-css-jsdiv .html {
+    width: 300px;
+    height: 240px;
+    text-align: left;
+
+
+}
+
+.html {
+    margin-left: 102px;
+    margin-right: 137px;
+
+}
+
+.html1 {
+    background: linear-gradient(rgba(255, 75, 30, 0.104));
+    padding: 15px 35px 5px 10px;
+    border-radius: 5px;
+}
+
+.css {
+    background: linear-gradient(rgba(0, 77, 232, 0.121));
+    padding: 15px 35px 5px 10px;
+    border-radius: 5px;
+}
+
+.js {
+    background: linear-gradient(rgba(255, 221, 0, 0.257));
+    padding: 15px 50px 5px 10px;
+    border-radius: 5px;
+}
+
+.html img {
+    margin-bottom: 10px;
+}
+
+.html h1 {
+    margin-bottom: 5px;
+}
+
+.html a {
+    color: rgb(0, 0, 0);
+}
+
+.nexthading {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.mainemongo {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 2px solid #0D1321;
+    border-top: 2px solid #0D1321;
+    border-radius: 18px;
+    padding: 10px;
+    background: linear-gradient(rgba(117, 123, 133, 0.121));
+}
+
+.mongodiskipecoin h4 {
+    margin-bottom: 25px;
+    color: rgba(30, 30, 30, 0.791);
+}
+
+.mongodiskipecoin p {
+    margin-bottom: 20px;
+}
+
+.continer {
+    margin-left: 300px;
+    margin-right: 263px;
+}
+
+.mongodiskipecoin a {
+    color: black;
+
+}
+footer{
+    width: 64%;
+    height: 200px;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    border-radius: 10px;
+   margin: 0px auto;
+   margin-top: 50px;
+   text-align: center;
+  
+}
+ .foottitel,.footh2 h1{
+    color: rgba(110, 111, 97, 0.856);
+    line-height: 60px;
+
+}
+.infoot input{
+    padding: 6px 50px 6px 7px;
+    border: 2px solid hsla(0, 6%, 34%, 0.176);
+   border-radius: 7px; 
+}
+.infoot ::placeholder{
+    color: rgb(129, 114, 145);
+
+}
+footer,button{
+    padding: 9px 20px;
+    border-radius: 8px;
+    color: rgb(129, 114, 145);
+}
+.footerma{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 250px ;
+   margin-right: 250px;
+}
+.imgfooter{
+   display: flex;
+   gap: 20px;
+   margin-top: 40px;
+}
+.lestcontiner{
+    margin-top: 50px;
+}
